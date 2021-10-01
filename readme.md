@@ -12,3 +12,5 @@ If you are not familiar with this sequential, low level, programming language fo
 2. Don't be scared. Ask for help if you need to;
 3. Read documentation;
 4. Have fun
+
+To contribute in our JS based repository follow https://github.com/divyanshugarg36/cool-js-tricks
