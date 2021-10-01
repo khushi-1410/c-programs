@@ -1,3 +1,5 @@
+/* Question: Write a C program to implement stack and its functions namely push(), pop() and peek() using array. */
+
 #include <stdio.h> 
 #include <stdlib.h> 
  
