@@ -14,7 +14,7 @@ void main(){
                 break;
         case 2:printf("Enter base and hight : ");
                 scanf("%f%f",&x,&y);
-                area=1/2*x*y;
+                area=(x*y)/2; //modified the formula 
                 break;
          case 3:printf("Enter Length and Barth : ");
                 scanf("%f%f",&x,&y);
@@ -22,18 +22,19 @@ void main(){
                 break;
          case 4:printf("Enter Diaganels : ");
                 scanf("%f%f",&x,&y);
-                area=1/2*x*y;
+                area=(x*y)/2;//modified the formula
                 break;
          case 5:printf("Enter side :");
                 scanf("%f",&x);
                 area=x*x;
                 break;
          case 6:printf("Enter Side : ");
-                scanf("%f%f",&x);
-                area=1/4*sqrt(5*(5+2*sqrt(5)))*x*x;
+                scanf("%f",&x);
+                area=(sqrt(5 * (5 + 2 * (sqrt(5)))) * x * x) / 4; // %f will happen once & modified the formula
+            
                 break;
          case 7:printf("Enter Side : ");
-                scanf("%f%f",&x);
+                scanf("%f",&x);
                 area=3*sqrt(3)/2*x*x;
                 break;
         default: printf("Wrong Output\n");
