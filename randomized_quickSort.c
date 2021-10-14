@@ -48,13 +48,8 @@ int main()
   printf("%d ", arr[i]);
 
  }
-
-
-
     start=time(NULL);
-
     printf("\n\nThe passes are:");
-
     QuickSort(arr, 0, n-1);
 
     end=time(NULL);
