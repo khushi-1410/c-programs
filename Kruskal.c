@@ -27,6 +27,7 @@ void printSpanningTree()
     id[i] = i;
     while(treeEdgeCount < noOfVertices - 1)
     {
+        //Find min. edge
         int minedge = INFINITY;
         for(int i = 1; i <= noOfVertices; i++)
         for(int j = i + 1; j <= noOfVertices; j++)
